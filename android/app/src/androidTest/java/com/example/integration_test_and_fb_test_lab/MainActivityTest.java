@@ -1,11 +1,11 @@
-package com.resocoder.integration_testing_prep;
+package com.example.integration_test_and_fb_test_lab;
 
 import androidx.test.rule.ActivityTestRule;
 import dev.flutter.plugins.integration_test.FlutterTestRunner;
 import org.junit.Rule;
 import org.junit.runner.RunWith;
 // Import MainActivity from YOUR package
-import com.resocoder.integration_testing_prep.MainActivity;
+import com.example.integration_test_and_fb_test_lab.MainActivity;
 
 @RunWith(FlutterTestRunner.class)
 public class MainActivityTest {
